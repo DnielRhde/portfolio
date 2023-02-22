@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+
+#title-name{
+  font-size: 20vh;
+  font-weight: 900;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+@media (orientation: landscape) {
+  .App-header {
+    flex-direction: row;
+  }
+}
+@media (orientation: portrait) {
+  .App-header {
+    flex-direction: column;
+  }
+}
+
